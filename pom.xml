@@ -17,6 +17,10 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR3</spring-cloud.version>
+			<sonar.projectKey>developerssg_discovery-server</sonar.projectKey>
+			<sonar.organization>developerssg-1</sonar.organization>
+			<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+			<sonar.login>52b261bd5d9086ce5aaf5b1d099b653f616f77da</sonar.login>
 	</properties>
 
 	<dependencies>
