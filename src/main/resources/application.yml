@@ -1,0 +1,17 @@
+
+server:
+  port: ${SERVER_PORT} # Indicate the default PORT where this service will be started
+
+eureka:
+  dashboard:
+    path: discovery-ui
+  client:
+    registerWithEureka: false   #telling the server not to register itself in the service registry
+    fetchRegistry: false
+  server:
+    maxThreadsForPeerReplication: 0
+
+spring:
+  application:
+    name: discovery-server
+
